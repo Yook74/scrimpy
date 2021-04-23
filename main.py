@@ -3,7 +3,7 @@ import re
 from requests import get
 from simplepush import send
 
-recipients = ['cvTRWj']
+recipients = ['cvTRWj', 'Jd7BvU']
 pattern = r"<td data-label='Availability'.+><button.+>(.+)<\/button><\/td>"
 
 try:
